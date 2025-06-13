@@ -17,3 +17,12 @@ document.querySelectorAll(".faq-question").forEach((button) => {
     }
   });
 });
+
+/*CTA SECTION jscode*/
+// Prevent default form submit behavior (optional)
+document
+  .querySelector(".contact-form")
+  .addEventListener("submit", function (e) {
+    e.preventDefault();
+    alert("Thank you! We'll contact you shortly.");
+  });

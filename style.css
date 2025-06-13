@@ -233,3 +233,68 @@ body {
     margin: 1rem 0;
     color: #444;
 }
+
+/*CTA section style */
+
+.contact-section {
+    background-color: #e6f0ff;
+    padding: 4rem 2rem;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.contact-left {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-left h2 {
+    font-size: 2rem;
+    color: #2f4dbc;
+    margin-bottom: 1rem;
+}
+
+.contact-left p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.contact-right {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-form input {
+    padding: 0.8rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    padding: 0.9rem 1rem;
+    background-color: #2f4dbc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #1c39a1;
+}
